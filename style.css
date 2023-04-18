@@ -1,7 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-#heading{
-    color: red;
+
+.headerContainer {
+  /* margin: 0 10px; */
+  align-items: center;
+  justify-content: center;
+  background: #1b5e20;
+}
+.logoImg {
+  width: 90px;
+  border-radius: 50%;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.navItems {
+  margin: 0 100px;
+}
+.navItems > ul {
+  display: flex;
+}
+.navItems > ul > li {
+  list-style: none;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.bodyContainer {
+  padding: 50px 100px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.searchBox {
+  width: 300px;
+  height: 30px;
+  margin-right: 5px;
+  /* border-top: none;
+    border-left: none;
+    border-right: none; */
+  background: whitesmoke;
+}
+.searchButton {
+  font-size: 20px;
+  padding: 5px;
+  width: fit-content;
+  background: #1b5e20;
+  color: whitesmoke;
+}
+.resCardContainer {
+  width: 250px;
+  /* height: 600px; */
+  /* border: 1px solid black; */
+  padding: 15px;
+  /* background:#BDBDBD; */
+  /* color: ; */
+}
+.resCard:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  /* padding: 10px; */
+}
+.resCard {
+  margin: 5px;
+  background: #bdbdbd;
+}
+.resCard > img {
+  /* object-fit: contain; */
+  /* object-fit: fill; */
+  /* object-fit: fill; */
+  width: 240px;
+  /* height: 250px; */
+  /* padding: 10px; */
+}
+.resCardTitle {
+  font-size: 20px;
+}
+.cuisine {
+  font-size: 15px;
+  font-weight: 100;
+}
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
 }
